@@ -264,6 +264,9 @@ ul{
 
 
 @media screen and (max-width: 500px){
+    body{
+        overflow-x: hidden;
+    }
     h1{
         font-size: 15px;
         width: 30%;
@@ -395,5 +398,14 @@ ul{
     }
     .for{
         width: 60%;
+    }
+    .sanka{
+        font-size: 15px;
+    }
+    .G-rule{
+        font-size: 15px;
+    }
+    .size{
+        font-size: 15px;
     }
 }
