@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-body{
+/* body{
     overflow-x: hidden;
-}
+} */
 header{
     display: flex;
     justify-content: center;
@@ -99,7 +99,7 @@ aside{
 } */
 
 .orBox{
-    width: 107%;
+    /* width: 100%; */
 }
 
 
@@ -116,6 +116,8 @@ aside{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    left: 7%;
 }
 
 .url{
@@ -264,9 +266,9 @@ ul{
 
 
 @media screen and (max-width: 500px){
-    body{
+    /* body{
         overflow-x: hidden;
-    }
+    } */
     h1{
         font-size: 15px;
         width: 30%;
@@ -340,9 +342,9 @@ ul{
         justify-content: space-between;
     } */
 
-    .orBox-res{
+    /* .orBox-res{
         width: 107%;
-    }
+    } */
 
 
     .howtojoin-res{
@@ -357,6 +359,8 @@ ul{
         display: flex;
         flex-direction: column;
         align-items: center;
+        position: relative;
+        left: 16%;
     }
     .url-res{
         border: 2px solid black;
@@ -380,11 +384,7 @@ ul{
         display: flex;
         justify-content: space-around;
     }
-    .Birre-res{
-        display: flex;
-        align-items: center;
-        height: 100px;
-    }
+    
     .block-res{
         display: flex;
     }
@@ -407,5 +407,18 @@ ul{
     }
     .size{
         font-size: 15px;
+    }
+    .mcBox-res{
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        margin-left: 30px;
+    }
+    .Birre-res{
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        height: 100px;
     }
 }
