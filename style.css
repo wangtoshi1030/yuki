@@ -98,9 +98,6 @@ aside{
     justify-content: space-between;
 } */
 
-.orBox{
-    /* width: 100%; */
-}
 
 
 .howtojoin{
@@ -262,7 +259,10 @@ ul{
 .container-res{
     display: none;
 }
-
+.gram{
+    width: 100px;
+    height: 100px;
+}
 
 
 @media screen and (max-width: 500px){
@@ -421,4 +421,7 @@ ul{
         /* justify-content: center; */
         height: 100px;
     }
+}
+@media screen and (max-width:414px){
+    
 }
